@@ -31,5 +31,4 @@ Before you must download Python moulde & system check
 
 [2] run -> python jrop.py
 
-
-![GeekTree0101](./icon.png)
+![git]https://github.com/GeekTree0101/Jrop/blob/master/icon.png
