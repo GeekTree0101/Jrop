@@ -1,0 +1,94 @@
+"""
+
+Jpype Project (Java execution program)
+Copyright(C) 2016 MIRO Ha Hyeon soo
+
+
+[CAUTION!] Execuation javac file save at "data" folder!! 
+
+Packgename, Classname, same class name and integrate "super();"
+and must contain to "public void output()" method!!!
+"""
+from os import *
+from jpype import *
+from time import sleep
+import datetime
+
+
+
+#User data 
+	#TODO : "Packagename.ClassName"
+data = []
+	
+#global variable
+importClassList = []
+instClassList = []
+
+#set JVM
+def setup():
+  
+    #Setup Java virtual Machine
+    print("[MIRO Python-Java Project]")
+    print("Copyright(C)2016 Ha Hyeon soo")
+    print((str)(datetime.datetime.now())+"\n")
+    print("...Setting JVM...")
+    sleep(2)
+    startJVM(getDefaultJVMPath())
+    isThreadAttachedToJVM()
+     
+    #Read file lists
+    print("[output class file list]")
+    #XXX : quiz - > data
+    filelist = listdir(path.realpath('data'))
+    print("\n [" + filelist  + "] \n")
+
+#User set import class files
+def importClass():
+    while(1):
+        var = input("Insert Package.Class Name \n [ex. sample.test sample = package, test = class] :")
+        data.append(var)
+        var = input("Will you continue? [Y/N]")
+        if((var == 'Y') or (var == 'y')):
+            pass
+        else:
+            print("===========end import ==========\n")    
+            break
+
+#import class
+def importClass():
+	global data
+	global importClassList
+	global instClassList
+
+	for i in data:
+		importClassList.append(JClass(i))
+	for i in range(len(importClassList)):
+		instClassList.append(importClassList[i]())
+	
+	print("\n==============info=================\n")
+	sleep(1)
+	print(importClassList)		
+	sleep(1)
+	print(instClassList)
+	sleep(1)
+	print("\n===================================\n")
+
+#output section
+#TODO: you must know about class-method
+def output():
+	global instClassList
+	global param
+	
+	print("\n[OUTPUT]\n")
+	sleep(2)
+	for i in range(len(instClassList)):
+		print("...TEST[" + (str)(i) + "]...\n")
+		instClassList[i].output()
+		print("\n...DONE...\n")
+
+
+#app run
+if __name__ == '__main__':
+	setup()
+	importClass()
+	output()
