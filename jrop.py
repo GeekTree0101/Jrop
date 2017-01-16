@@ -9,6 +9,7 @@ and must contain to "public void output()" method!!!
 """
 
 #import python module
+
 import subprocess
 from os import *
 from jpype import *
@@ -18,8 +19,10 @@ import sys
 from javabuilder import javabuilder
 
 """
+
 Global variable
 NOTE : Don't Custom This area
+
 """
 
 #User data 
