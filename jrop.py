@@ -2,8 +2,6 @@
 
 Jpype Project (Java execution program)
 Copyright(C) 2016 MIRO Ha Hyeon soo
-
-
 [CAUTION!] Execuation javac file save at "data" folder!! 
 
 Packgename, Classname, same class name and integrate "super();"
