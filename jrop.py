@@ -7,7 +7,7 @@ Packgename, Classname, same class name and integrate "super();"
 and must contain to "public void output()" method!!!
 """
 
-#Github test 2017 7777
+#Github test commit test7
 
 #import python module
 
