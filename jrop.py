@@ -1,7 +1,7 @@
 """
 Jpype Project (Java execution program)
    Copyright(C) 2016 MIRO Ha Hyeon soo
-sdfdsf[CAUTION!] Execuation javac file save at "data" folder!! 
+sdfdsdfsdfsdføsf[CAUTION!] Execuation javac file save at "data" folder!! 
 
 Packgename, Classname, same class name and integrate "super();"
 and must contain to "public void output()" method!!!
