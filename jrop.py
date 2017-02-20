@@ -1,12 +1,5 @@
 """
-MASTER UPDATEø
-
-dddsfsdfJpype Project (Java execution program)
-fuck   Copyright(C) 2016 MIRO Ha Hyeon soo
-sdfdsdfsdfsdføsf[CAUTION!] Execuation javac file save at "data" folder!! 
-sdfdsfdsfdsfsdf
-Packgename, Classname, same class name and integrate "super();"
-and must contain to "public void output()" method!!!
+1
 """
 master
 #Github test commit test7234 ****
