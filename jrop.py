@@ -1,14 +1,7 @@
 """
 1
 2
-<<<<<<< 6c8a526b6aadb9ee9028c043c398543d3a162d4d
-<<<<<<< 35b514bc1ed21ea845acc885fdbda718b6e16c1c
 3
-=======
->>>>>>> 2nd
-=======
-3
->>>>>>> 3rd
 """
 master
 #Github test commit test7234 ****
