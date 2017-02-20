@@ -1,4 +1,8 @@
+<<<<<<< bca7d655cde4399f0c0d90fabeca8c7a9476953c
 xdfsdf"""
+=======
+sdfdsfds"""
+>>>>>>> testsdfds
 dddsfsdfJpype Project (Java execution program)
 fuck   Copyright(C) 2016 MIRO Ha Hyeon soo
 sdfdsdfsdfsdføsf[CAUTION!] Execuation javac file save at "data" folder!! 
